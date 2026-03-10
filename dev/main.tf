@@ -1,5 +1,5 @@
 module "vpc" {
-    sources = "../modules/vpc"
+    source = "../modules/vpc"
     
 }
 
