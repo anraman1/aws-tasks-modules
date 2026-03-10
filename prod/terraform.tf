@@ -5,7 +5,7 @@ terraform {
     organization = "poc-iac-iving"
 
     workspaces {
-      name = "dev-apps-aws-poc"
+      name = "prod-apps-aws-poc"
     }
   }
 }
