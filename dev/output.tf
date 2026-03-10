@@ -1,3 +1,3 @@
 output "vpc_id" {
-  value = module.vpc.icg.id
+  value = aws_vpc.icg.id
 }
