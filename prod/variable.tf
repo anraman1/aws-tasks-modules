@@ -1,7 +1,4 @@
-variable "vpc_info" {
-  type    = map(string)
-  default = {
-    Name = "icg-2-vpc"
-    Cidr = "192.168.0.0/16"
-  }
+vpc_info = {
+  Name = "icg-vpc-3"
+  Cidr = "192.168.0.0/16"
 }
