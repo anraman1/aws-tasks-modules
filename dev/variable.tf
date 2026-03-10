@@ -35,7 +35,7 @@ variable "dbs" {
     
   ]
 }
-variable "vpc-info" {
+variable "vpc_info" {
   type    = map(string)
   default = {
     Name = "icg-vpc"

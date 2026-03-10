@@ -1,8 +1,8 @@
 
 resource "aws_vpc" "icg" {
-  cidr_block = var.vpc-info.Cidr
+  cidr_block = var.vpc_info.Cidr
 
   tags = {
-    Name = var.vpc-info.Name
+    Name = var.vpc_info.Name
   }
 }
