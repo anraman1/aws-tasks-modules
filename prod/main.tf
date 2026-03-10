@@ -1,7 +1,10 @@
 module "vpc" {
     source = "../modules/vpc"
-    cidr = var.vpc_info.Cidr
-    tags = {
-        Name = var.vpc_info.Name
+
+      vpc_info = {
+    Name = "icg-vpc-2"
+    Cidr = "192.168.0.0/16"
+  }
+
     }
 }
